@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Federant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@200&display=swap');
+body {
+    font-family: Tahoma;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(wall2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 26px;
+    font-family: 'Lexend Giga', sans-serif;
+
+}
+
+section {
+    position: relative;
+    max-width: 230px;
+    max-height: 250px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    border-radius: 5px;
+    
+
+}
+
+table tr,
+table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Ganti warna sesuai keinginan Anda */
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff; /* Ganti warna sesuai keinginan Anda */
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+table th {
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lexend Giga', sans-serif;
+
+}
+
+
+
+input[type="text"],
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Gaya untuk gambar profil */
+table img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Gaya untuk operasi Edit dan Delete */
+td.operations a {
+    margin-right: 5px;
+    color: #27ae60;
+}
+
+td.operations a.delete {
+    color: #e74c3c;
+}
+
+form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
